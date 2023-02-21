@@ -36,13 +36,13 @@ export default function Cookie({ mode }) {
                 </Button>
 
                 <div className='cookie-text' style={{ color: mode === "dark" ? "white" : "black" }}>
-                    This Cookie Policy applies to the website(s) and mobile applications (together, the "Sites") provided by BigDigitalMedia & Company, Inc. (“BigDigitalMedia”, “we”, “us”). The Sites include www.BigDigitalMedia.com and additional websites or mobile applications produced and managed by BigDigitalMedia. Please note that this Cookie Policy does not apply to the BigDigitalMedia Alumni Job Board (careercenter.BigDigitalMedia.com), which is provided and managed by a third party and is governed by separate policies.
+                    This Cookie Policy applies to the website(s) and mobile applications (together, the "Sites") provided by Big Bros Digital Media & Company, Inc. (“Big Bros Digital Media”, “we”, “us”). The Sites include www.bigbrosdigitalmedia.com and additional websites or mobile applications produced and managed by Big Bros Digital Media. Please note that this Cookie Policy does not apply to the Big Bros Digital Media Alumni Job Board (careercenter.  Big Bros Digital Media.com), which is provided and managed by a third party and is governed by separate policies.
                 </div>
                 <div className='cookie-text' style={{ color: mode === "dark" ? "white" : "black" }}>
                     This Cookie Policy explains how and why cookies, web beacons, pixels and other similar technologies (collectively “Cookies”) may be stored on and accessed from your device when you use or visit our Sites and how you can manage your preferences. This Cookie Policy should be read together with our Privacy Policy and our Terms of Use.
                 </div>
                 <div className='cookie-text' style={{ color: mode === "dark" ? "white" : "black" }}>
-                    BigDigitalMedia reserves the right, at its sole discretion, to alter and update this Cookie Policy from time to time. We therefore invite you to review the current version of the Cookie Policy each time you return to our Sites.
+                     Big Bros Digital Media reserves the right, at its sole discretion, to alter and update this Cookie Policy from time to time. We therefore invite you to review the current version of the Cookie Policy each time you return to our Sites.
                 </div>
 
                 <div className='cookie-subtitle' style={{ color: mode === "dark" ? "white" : "black" }}>
@@ -104,8 +104,8 @@ export default function Cookie({ mode }) {
                             </Thead>
                             <Tbody>
                                 <Tr>
-                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>BigDigitalMedia</div></Td>
-                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>agamemnon.in</div></Td>
+                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>BigBrosDigitalMedia</div></Td>
+                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>www.bigbrosdigitalmedia.com</div></Td>
                                 </Tr>
                             </Tbody>
                         </Table>
@@ -146,8 +146,8 @@ export default function Cookie({ mode }) {
                             </Thead>
                             <Tbody>
                                 <Tr>
-                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>BigDigitalMedia</div></Td>
-                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>agamemnon.in</div></Td>
+                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>BigBrosDigitalMedia</div></Td>
+                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>www.bigbrosdigitalmedia.com</div></Td>
                                 </Tr>
                             </Tbody>
                         </Table>
@@ -165,7 +165,7 @@ export default function Cookie({ mode }) {
                 </div>
 
                 <div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                    We may also use Cookies to enable you to share content on networking or social media sites or for marketing and promotional purposes where you have subscribed to marketing communications from BigDigitalMedia.
+                    We may also use Cookies to enable you to share content on networking or social media sites or for marketing and promotional purposes where you have subscribed to marketing communications from Big Bros Digital Media.
                 </div>
 
 
@@ -189,8 +189,8 @@ export default function Cookie({ mode }) {
                             </Thead>
                             <Tbody>
                                 <Tr>
-                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>BigDigitalMedia</div></Td>
-                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>agamemnon.in</div></Td>
+                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>BigBrosDigitalMedia</div></Td>
+                                    <Td><div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>www.bigbrosdigitalmedia.com</div></Td>
                                 </Tr>
                             </Tbody>
                         </Table>
@@ -228,7 +228,7 @@ export default function Cookie({ mode }) {
                 </div>
 
                 <div className='cookie-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                    If you have any questions about this Cookie Policy, please contact DataPrivacy@BigDigitalMedia.com.
+                    If you have any questions about this Cookie Policy, please contact DataPrivacy@nignrosdigitalmedia.com.
                 </div>
             </div>
         </div>

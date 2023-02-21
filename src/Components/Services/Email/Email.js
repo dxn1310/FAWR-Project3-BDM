@@ -27,6 +27,21 @@ export default function Email({ mode }) {
         behavior: 'smooth'
     });
 
+    const projectData = [
+        {
+            title: "Fashion Co",
+            content: "Sending weekly emails for a fashion company with their curated branding and projecting.",
+        },
+        {
+            title: "Business Solutions",
+            content: "Curating special business emailers for a brand to help their sales grow.",
+        },
+        {
+            title: "Newlife Letters",
+            content: "Creating newsletter with our talented content writing team helping the business grow.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Reach Your Target Audience Directly",
@@ -119,7 +134,7 @@ export default function Email({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

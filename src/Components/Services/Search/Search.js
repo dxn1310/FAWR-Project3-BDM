@@ -27,6 +27,21 @@ export default function Search({ mode }) {
     });
 
 
+    const projectData = [
+        {
+            title: "Seo Garage",
+            content: "helping search engines understand and present content. Your site may be smaller or larger than our example site and offer vastly different content.",
+        },
+        {
+            title: "Marketer magic",
+            content: "helping search engines understand and present content. Your site may be smaller or larger than our example site and offer vastly different content.",
+        },
+        {
+            title: "Magic Searcch",
+            content: "helping search engines understand and present content. Your site may be smaller or larger than our example site and offer vastly different content.",
+        },
+    ]
+
     const detailData = [
         {
             title: "SEO Strategies to Bring Social Traffic",
@@ -99,7 +114,7 @@ export default function Search({ mode }) {
                 <u> Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

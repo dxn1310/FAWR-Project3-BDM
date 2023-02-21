@@ -28,6 +28,21 @@ export default function Distribution({ mode }) {
         behavior: 'smooth'
     });
 
+    const projectData = [
+        {
+            title: "Funky Monk",
+            content: "Social networking service, widely used for public communications within organizations. You can design a project around this platform where each student will have to post a question, an idea, or insight about the material covered in class.",
+        },
+        {
+            title: "Cloud Sources Pvt",
+            content: "Development, succession planning , forward-looking process used to lay out a particular plan of action to employ the workforce to accomplish the organization's mission, initiatives, and goals.",
+        },
+        {
+            title: "Social Bird",
+            content: "Social networking service, widely used for private communications within organizations. You can design a project around this platform where each student will have to post a question, an idea, or insight about the material covered in class.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Reaching the target market",
@@ -108,7 +123,7 @@ export default function Distribution({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

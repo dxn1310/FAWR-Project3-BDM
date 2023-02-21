@@ -36,6 +36,22 @@ export default function Graphic({ mode }) {
         behavior: 'smooth'
     });
 
+    
+const projectData = [
+    {
+        title: "Kameo Book cover",
+        content: "Curates specially for the brand keeping in mind the traditional design as they preffered",
+    },
+    {
+        title: "Business Branding",
+        content: "helped a company create its brand identity, starting with its color palette and logo design.Creating a unique way for them to get recognized",
+    },
+    {
+        title: "Product Packaging Design",
+        content: "Packaging, which is the outerwear of a product, should also be consistent with the brand. A great product packaging design can go a long way. In fact, having this project in your portfolio could lead to more prospects",
+    },
+]
+
     const detailData = [
         {
             title: "Want to get your brand noticed?",
@@ -120,7 +136,7 @@ export default function Graphic({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData}/>
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

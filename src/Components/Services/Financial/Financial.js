@@ -27,6 +27,21 @@ export default function Financial({ mode }) {
         behavior: 'smooth'
     });
 
+    const projectData = [
+        {
+            title: "Smart Leads",
+            content: "A variety of services relating to the purchase, merger, or sale of an organisation are offered to clients via transaction services. ",
+        },
+        {
+            title: "HomeCap",
+            content: "To streamline the demands assisting with any other intellectual property-related difficulties as well as the trademark registration done completely. ",
+        },
+        {
+            title: "RBA Solutions",
+            content: "The process of developing internal resources, internal methodology (strategies, business processes), and internal methodologies (business processes) .",
+        },
+    ]
+
     const detailData = [
         {
             title: "Helps in Attaining Goals",
@@ -105,7 +120,7 @@ export default function Financial({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData}/>
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

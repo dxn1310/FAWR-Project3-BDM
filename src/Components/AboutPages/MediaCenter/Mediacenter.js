@@ -50,19 +50,16 @@ export default function Mediacenter({ mode }) {
                 <div className='mc-element1' style={{ backgroundColor: mode === "dark" ? "#29262B" : "#EFEFEF" }}>
                     <div className='mc-element1-top'>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%", fontSize: "500" }}>
-                            Person name
+                            Thilak,
                         </div>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            Region/ Area
+                            India,
                         </div>
                     </div>
 
                     <div className='mc-element1-bottom'>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            person@bdm.com
-                        </div>
-                        <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            +91-1234567890
+                            pro@bigbrosdigitalmedia.com
                         </div>
                     </div>
                 </div>
@@ -70,19 +67,16 @@ export default function Mediacenter({ mode }) {
                 <div className='mc-element1' style={{ backgroundColor: mode === "dark" ? "#29262B" : "#EFEFEF" }}>
                     <div className='mc-element1-top'>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%", fontSize: "500" }}>
-                            Person name
+                            Charulatha,
                         </div>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            Region/ Area
+                            Canada,
                         </div>
                     </div>
 
                     <div className='mc-element1-bottom'>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            person@bdm.com
-                        </div>
-                        <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            +91-1234567890
+                            pro.ca@bigbrosdigitalmedia.com
                         </div>
                     </div>
                 </div>
@@ -90,29 +84,26 @@ export default function Mediacenter({ mode }) {
                 <div className='mc-element1' style={{ backgroundColor: mode === "dark" ? "#29262B" : "#EFEFEF" }}>
                     <div className='mc-element1-top'>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%", fontSize: "500" }}>
-                            Person name
+                            Sneha,
                         </div>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            Region/ Area
+                            Malaysia,
                         </div>
                     </div>
 
                     <div className='mc-element1-bottom'>
                         <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            person@bdm.com
-                        </div>
-                        <div className='mc-text1' style={{ color: mode === "dark" ? "white" : "black", width: "80%", textAlign: "center", marginTop: "5%" }}>
-                            +91-1234567890
+                            pro.ma@bigbrosdigitalmedia.com
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='mc-title' style={{ color: mode === "dark" ? "white" : "black" }}>
+            {/* <div className='mc-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                 <u>Media Mentions</u>
-            </div>
+            </div> */}
 
-            <div className='mc-grid2'>
+            {/* <div className='mc-grid2'>
                 {
                     mediaData.map((item, index) => {
                         return <div className='mc-element2' style={{ backgroundColor: mode === "dark" ? "#211F22" : "#EFEFEF" }}>
@@ -138,9 +129,9 @@ export default function Mediacenter({ mode }) {
                     })
                 }
 
-            </div>
+            </div> */}
 
-            <div className='mc-title' style={{ color: mode === "dark" ? "white" : "black" }}>
+            {/* <div className='mc-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                 <u>Press Release</u>
             </div>
 
@@ -170,7 +161,7 @@ export default function Mediacenter({ mode }) {
                     })
                 }
 
-            </div>
+            </div> */}
         </div >
     )
 }

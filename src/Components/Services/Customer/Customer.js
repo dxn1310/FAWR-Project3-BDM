@@ -28,6 +28,20 @@ export default function Customer({ mode }) {
         behavior: 'smooth'
     });
 
+    const projectData = [
+        {
+            title: "RBA Soultion",
+            content: "The process of developing internal resources, internal methodology (strategies, business processes), and internal methodologies (business processes) .",
+        },
+        {
+            title: "Cloud Sources Pvt",
+            content: "Development, succession planning , forward-looking process used to lay out a particular plan of action to employ the workforce to accomplish the organization's mission, initiatives, and goals.",
+        },
+        {
+            title: "Meida Outsourcing",
+            content: "The process of developing internal resources, internal methodology (strategies, business processes), and internal methodologies (business processes) .",
+        },
+    ]
 
     const detailData = [
         {
@@ -115,7 +129,7 @@ export default function Customer({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

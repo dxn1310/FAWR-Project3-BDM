@@ -38,6 +38,21 @@ export default function Predictive({ mode }) {
         }
     ]
 
+    const projectData = [
+        {
+            title: "Slide In",
+            content: "a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.",
+        },
+        {
+            title: "Cosmos",
+            content: "Lessentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.",
+        },
+        {
+            title: "DataSet CO",
+            content: "Role-based data distribution and filteringmade possible by datasets. By connecting dataset rules to a user's dataset roles",
+        },
+    ]
+
     const gridData = [
         {
             name: "Understanding Datasets",
@@ -104,7 +119,7 @@ export default function Predictive({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

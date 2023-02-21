@@ -125,9 +125,9 @@ export default function Banking({ mode }) {
             <div className='industries-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                 <u>Our Recent Projects</u>
             </div>
-            <div className='industries-component'>
+            {/* <div className='industries-component'>
                 <Project mode={mode} />
-            </div>
+            </div> */}
 
             <div className='industries-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                 <u>Featured Blog posts</u>

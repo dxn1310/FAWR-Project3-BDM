@@ -33,6 +33,22 @@ export default function Animation({ mode }) {
         behavior: 'smooth'
     });
 
+
+    const projectData = [
+        {
+            title: "Logo Mania",
+            content: "Partnered with a logo company to get all thier logos animated with our special softwares and set of video editors",
+        },
+        {
+            title: "Social Media co",
+            content: "Need to cross-promote your social media channels? Look no further. This project could be perfect for a YouTube channel owner who has other social platforms to push. ",
+        },
+        {
+            title: "Unbeat opener",
+            content: "This project is an all-in-one solution for creating a high-energy video reel. Combine text, video footage, and stock photos to create videos that set the tone for an upbeat production.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Experience the power of animation with BDM",
@@ -118,7 +134,7 @@ export default function Animation({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

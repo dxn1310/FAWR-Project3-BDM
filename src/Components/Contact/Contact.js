@@ -38,12 +38,12 @@ export default function Contact({ mode }) {
                                 Headquaters
                             </div>
                             <div className='contact-grid-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                                BigDigitalMedia<br />
-                                123 ABC Street,<br />
-                                City, State 123456<br />
-                                India<br /><br />
-                                Phone: +91-1234567890 <br />
-                                Fax: +91-1234567890
+                                BigBrosDigitalMedia<br />
+                                {/* 123 ABC Street,<br />
+                                City, State 123456<br /> */}
+                                India
+                                {/* Phone: +91-1234567890 <br />
+                                Fax: +91-1234567890 */}
                             </div>
                         </div>
                     </div>
@@ -94,17 +94,8 @@ export default function Contact({ mode }) {
                                 International Presence
                             </div>
                             <div className='contact-grid-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                                Country<br />
-                                123 ABC Street<br />
-                                City, State 123456<br />
-                                Phone: +91-1234567890<br />
-                                Fax: +91-1234567890<br /><br />
-
-                                Country<br />
-                                123 ABC Street<br />
-                                City, State 123456<br />
-                                Phone: +91-1234567890<br />
-                                Fax: +91-1234567890
+                                Canada<br />
+                                Malaysia
                             </div>
                         </div>
                     </div>
@@ -116,7 +107,7 @@ export default function Contact({ mode }) {
                             </div>
                             <div className='contact-grid-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
                                 Make a decisive move forward.<br />
-                                recruiting@bdm.com
+                                recruiting@bigbrosdigitalmedia.com
                             </div>
 
                             <Link to="/Career Options">
@@ -138,7 +129,7 @@ export default function Contact({ mode }) {
                             </div>
                             <div className='contact-grid-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
                                 Reach us or check out the resources we provide.<br />
-                                recruiting@bdm.com
+                                recruiting@bigbrosdigitalmedia.com
                             </div>
 
                             <Link to="/Alumni Relations">
@@ -159,7 +150,7 @@ export default function Contact({ mode }) {
                                 Website
                             </div>
                             <div className='contact-grid-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                                Concerns or remarks regarding bdm.com?
+                                Concerns or remarks regarding bigbrosdigitalmedia.com?
                             </div>
 
                             <Link to="">

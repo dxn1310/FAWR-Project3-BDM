@@ -28,6 +28,20 @@ import Pricing from '../Pricing/Pricing'
 // import Contact from "../../Contact/Contact"
 
 export default function Landing({ mode }) {
+    const projectData = [
+        {
+            title: "Gradle",
+            content: "One of the best ways to manage infrastructure is by using code. helps to simplify and automate the provisioning and management of infrastructure. Infrastructure as code helps you manage your organization's infrastructure more easily as a DevOps engineer.",
+        },
+        {
+            title: "Docker",
+            content: "Docker is a popular container technology for hosting services and applications that virtualizes operating systems and builds lightweight containers",
+        },
+        {
+            title: "Build Automation Framework",
+            content: "Another important aspect of DevOps is built automation. To streamline the software build process, it is often necessary to automate various tasks, such as code compilation and testing.",
+        },
+    ]
     return (
         <div style={{ backgroundColor: mode === "dark" ? "#211F22" : "white" }} className="landing-outer">
             {/* <Navbar /> */}
@@ -107,13 +121,13 @@ export default function Landing({ mode }) {
                 <Testimonial mode={mode} />
             </div>
 
-            {/* <div className='landing-title' style={{ color: mode === "dark" ? "white" : "black" }}>
+            <div className='landing-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                 <u>Pricing</u>
             </div>
 
             <div className='landing-element' style={{ width: "100%", display: "flex", justifyContent: "center" }}>
                 <Pricing mode={mode} />
-            </div> */}
+            </div>
 
 
 
@@ -122,7 +136,7 @@ export default function Landing({ mode }) {
             </div>
 
             <div className='landing-element'>
-                <Project mode={mode} />
+                <Project mode={mode} projectData={projectData} />
             </div>
 
             <div className='landing-title' style={{ color: mode === "dark" ? "white" : "black" }}>

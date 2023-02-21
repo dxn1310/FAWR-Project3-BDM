@@ -18,6 +18,8 @@ import { Checkbox, CheckboxGroup } from '@chakra-ui/react'
 
 import { useMediaQuery } from '@chakra-ui/react'
 
+import { NavLink as Link } from 'react-router-dom'
+
 export default function Reach({ mode }) {
 
     window.scroll({
@@ -101,7 +103,7 @@ export default function Reach({ mode }) {
                             _placeholder={{ marginLeft: "0%", color: mode === "dark" ? "white" : "black", fontSize: isLargerThan900 ? "1rem" : "0.8rem" }} />
 
                         <Checkbox size='md' colorScheme='red' color={mode === "dark" ? "white" : "black"}>
-                            I have read the <label style={{ color: "#BC312E" }}>Privacy Policy</label> and agree to its terms
+                            I have read the <Link to="/Privacy"><label style={{ color: "#BC312E", cursor: "pointer" }}>Privacy Policy</label></Link> and agree to its terms
                         </Checkbox>
                         <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
                             <Button color='white' backgroundColor="#BC312E">

@@ -14,7 +14,14 @@ import { NavLink as Link } from 'react-router-dom'
 
 export default function Iservices() {
     const serviceImgs = [IS1, IS2, IS3, IS4, IS5, IS6, IS7, IS8]
-    const serviceLinks = ["", "", "", "", "", "", "", ""]
+    const serviceLinks = ["/App Development Services",
+        "/Cloud Storage & Management Services",
+        "/DevOps",
+        "/UX / UI Design Services",
+        "/Management Consultant Services",
+        "/Marketing Automation Services",
+        "/Research Intelligence Services",
+        "/Customer Segmentation Services"]
     return (
         <div className='is-outer'>
             <div className='is-grid'>

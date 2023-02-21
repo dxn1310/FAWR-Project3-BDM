@@ -32,6 +32,22 @@ export default function Research({ mode }) {
         behavior: 'smooth'
     });
 
+
+    const projectData = [
+        {
+            title: "Mentalh Health Research",
+            content: "Research has advanced the understanding of psychiatric disorders and made major contributions to their treatment. The helplessness of the past has been replaced.",
+        },
+        {
+            title: "EV Vehicles Survey",
+            content: "Our monthly market intelligence report on electric vehicles (EV) is a useful guide for automobile manufacturers, OEM suppliers, and investors to keep.",
+        },
+        {
+            title: "Crypto CoinGecko",
+            content: "With almost 13,000 cryptocurrencies and 617 exchanges, CoinGecko is the ultimate destination for everything related to cryptocurrencies. It lets you check out the list of cryptos and NFTs.",
+        },
+    ]
+
     const detailData = [
         {
             title: "In-depth analysis of markets & industries",
@@ -115,7 +131,7 @@ export default function Research({ mode }) {
                 <u> Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

@@ -29,6 +29,23 @@ import Value from '../../Templates/Value/Value'
 
 export default function Market({ mode }) {
 
+
+    const projectData = [
+        {
+            title: "Digital Marketing Agency",
+            content: "Digital marketing is so vast that some strategies work best in the long term,some works best with specific industries, etc. Doing a customer satisfaction survey for a digital marketing agency helps strategies in digital marketing.",
+        },
+        {
+            title: "Analytical Comparison",
+            content: "Few items you can analyse are total marketing expense, ability to measure ROI, ability to receive feedback, conversion ratio, interaction with the audience.",
+        },
+        {
+            title: "EV Strategy",
+            content: "The EV Project partnered with city, regional and state governments, utilities, and other organizations in 18 cities to deploy about 12,500 public and residential charging stations. It also demonstrated 8,650 plug-in electric vehicles.",
+        },
+    ]
+
+
     const detailData = [
         {
             title: "Marketing Automation to Amplify Marketing Effectiveness",
@@ -123,7 +140,7 @@ export default function Market({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData}/>
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

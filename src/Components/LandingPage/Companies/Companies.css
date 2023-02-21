@@ -28,9 +28,28 @@
 
 .companies-content {
     display: flex;
-    justify-content: space-around;
-    width: 90%;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 5%;
+}
+
+.companies-left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.companies-right {
+    width: 30%;
+    display: flex;
+    flex-direction: right;
+}
+
+.companies-left-content {
+    color: #C6C6C6;
+    font-size: 1.5rem;
+    margin-left: 10%;
 }
 
 .companies-title {
@@ -38,6 +57,8 @@
     font-size: 4rem;
     font-weight: 500;
     margin-top: 7%;
+    width: 100%;
+    margin-left: 10%;
 }
 
 .companies-bottom {
@@ -139,11 +160,21 @@
         font-weight: 500;
         color: #C6C6C6
     }
-    
+
     .companies-text-content {
         font-size: 1.25rem;
         font-weight: 400;
         color: #C6C6C6
+    }
+
+    .companies-left-content {
+        color: #C6C6C6;
+        font-size: 1.25rem;
+    }
+
+    .companies-title {
+        color: #874900;
+        font-size: 3rem;
     }
 }
 
@@ -160,6 +191,31 @@
     .companies-name {
         font-size: 1.25rem;
         /* width: fit-content; */
+    }
+
+    .companies-content {
+        flex-direction: column-reverse;
+    }
+
+    .companies-right {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .companies-left {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .companies-left-content {
+        color: #C6C6C6;
+        font-size: 1.25rem;
+        margin-left: 0%;
+    }
+
+    .companies-title {
+        margin-left: 0%;
     }
 }
 
@@ -183,12 +239,18 @@
         font-size: 1.5rem;
     }
 
+    .companies-left-content {
+        color: #C6C6C6;
+        font-size: 1rem;
+        margin-left: 0%;
+    }
+
     .companies-text-title {
         font-size: 1.25rem;
         font-weight: 500;
         color: #C6C6C6
     }
-    
+
     .companies-text-content {
         font-size: 1rem;
         font-weight: 400;

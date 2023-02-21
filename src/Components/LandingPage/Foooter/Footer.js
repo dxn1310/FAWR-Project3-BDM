@@ -74,7 +74,7 @@ export default function Footer() {
                             <Stack direction='row' spacing={2} alignItems="center" display="flex">
                                 <div style={{ width: "1rem" }}><img style={{ width: "1rem" }} src={f8} /></div>
                                 <div className='footer-content-text'>
-                                    bigbrosdigitalmedia.com
+                                    Support@bigbrosdigitalmedia.com
                                 </div>
                             </Stack>
 
@@ -132,12 +132,6 @@ export default function Footer() {
                 <div style={{ width: "100%", height: "0.1rem", backgroundColor: "white" }} />
 
                 <div className='footer-bottom'>
-                    <div className='footer-bottom-left'>
-                        <div className='footer-content-text'>
-                            Copyright © 2022-23. All rights reserved
-                        </div>
-                    </div>
-
                     <div className='footer-bottom-right'>
                         <Link to="/Sustainability @ BDM">
                             <div className='footer-content-text'>
@@ -177,7 +171,15 @@ export default function Footer() {
 
                     </div>
 
+                    <div style={{ width: "100%", height: "0.1rem", backgroundColor: "white" }} />
+
+                    <div className='footer-bottom-left'>
+                        <div className='footer-content-text'>
+                            Copyright © 2017-23 Rutendo Company. All rights reserved
+                        </div>
+                    </div>
                 </div>
+
 
 
 

@@ -29,6 +29,22 @@ import Value from '../../Templates/Value/Value'
 
 export default function Web({ mode }) {
 
+
+    const projectData = [
+        {
+            title: "Quiz App",
+            content: "Optionally you can add the ability to give a score to the user at the end of the game, if the score is above a threshold value you declare the player to be a winner.A very interesting project to work on.",
+        },
+        {
+            title: "Restaurant Website",
+            content: "This project aims to create a fully responsive restaurant website. You can extend the functionality by connecting it with a real-time database and allowing users to order food online.",
+        },
+        {
+            title: "Covid Awareness",
+            content: "this is the idea for our tenth project, making a covid 19 awareness website. Importance of vaccination, and the need to stay in isolation in case one experiences symptoms. In short a general-purpose awareness website.",
+        },
+    ]
+
     window.scroll({
         top: 0,
         left: 0,
@@ -124,7 +140,7 @@ export default function Web({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

@@ -21,10 +21,10 @@ export default function Blog() {
                         01-Jan-2021
                     </div>
                     <div className='blog-grid-title'>
-                        Blog Title
+                        Research Methodologies
                     </div>
                     <div className='blog-grid-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo.
+                        Research methods are different from research methodologies because they ... a list of quantitative, qualitative, and mixed research methods.
                     </div>
                 </div>
 
@@ -35,13 +35,13 @@ export default function Blog() {
                         <img className='blog-img' src={B2} />
                     </div>
                     <div className='blog-grid-date'>
-                        01-Jan-2021
+                        01-Feb-2021
                     </div>
                     <div className='blog-grid-title'>
-                        Blog Title
+                        Business Missions
                     </div>
                     <div className='blog-grid-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo.
+                        A mission statement clarifies what the company wants to achieve, who they want to support, and why they want to support them.On the other hand, ...
                     </div>
                 </div>
 
@@ -51,13 +51,14 @@ export default function Blog() {
                         <img className='blog-img' src={B3} />
                     </div>
                     <div className='blog-grid-date'>
-                        01-Jan-2021
+                        01-March-2021
                     </div>
                     <div className='blog-grid-title'>
-                        Blog Title
+                        Calm Thinking
                     </div>
                     <div className='blog-grid-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo.
+                        What does calm minded mean?
+                        Calmness is the mental state of peace of mind being free from agitation, excitement, or disturbance..
                     </div>
                 </div>
 

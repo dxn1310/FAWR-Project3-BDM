@@ -27,6 +27,22 @@ import Value from '../../Templates/Value/Value'
 
 export default function Research({ mode }) {
 
+
+    const projectData = [
+        {
+            title: "The Motion Video co",
+            content: "popular type of video is called Motion Graphics. Motion graphics, or motion animation, is a style of video which involves computer animations, illustrations, graphics, and/or typography as the primary techniques for creating what you see in a video.",
+        },
+        {
+            title: "Filmy Inc",
+            content: "a series of still photographs on film projected onto a screen using light in rapid succession.",
+        },
+        {
+            title: "Video run",
+            content: "The controls attribute adds video controls, like play, pause, and volume. It is a good idea to always include width and height attributes. If height and width ...",
+        },
+    ]
+
     window.scroll({
         top: 0,
         left: 0,
@@ -126,7 +142,7 @@ export default function Research({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData}/>
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

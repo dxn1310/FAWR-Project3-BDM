@@ -30,7 +30,7 @@ export default function Overview({ mode }) {
                             Greater futures are created via innovation and collective wisdom
                         </div>
                         <div className='ov-grid-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                            BigDigitalMedia is a provider of IT services, business solutions, and consultancy that has partnered with many of the biggest corporations in the world. We think that innovation and general knowledge can change everyone's futures for the better.
+                            BigBrosDigitalMedia is a provider of IT services, business solutions, and consultancy that has partnered with many of the biggest corporations in the world. We think that innovation and general knowledge can change everyone's futures for the better.
                         </div>
                     </div>
                     <div className='ov-grid-right'>

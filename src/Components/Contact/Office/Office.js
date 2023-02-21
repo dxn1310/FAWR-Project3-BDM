@@ -19,80 +19,18 @@ export default function Office({ mode }) {
                 </div>
                 <div className='office-grid'>
                     <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
+                        <b>India</b>
                     </div>
 
 
                     <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
+                        <b>Canada</b>
                     </div>
 
                     <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
+                        <b>Malaysia</b>
                     </div>
 
-                    <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
-                    </div>
-
-                    <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
-                    </div>
-
-                    <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
-                    </div>
-
-
-                    <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
-                    </div>
-
-
-                    <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
-                    </div>
-
-
-                    <div className='office-grid-text' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
-                        Country,<br />
-                        123 ABC Street<br />
-                        City, State 123456<br />
-                        Phone: +91-1234567890<br />
-                        Fax: +91-1234567890<br />
-                    </div>
                 </div>
             </div>
         </div>

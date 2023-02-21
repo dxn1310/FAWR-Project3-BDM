@@ -21,7 +21,7 @@ export default function Exploreoption({ onClick, mode }) {
                         <ChevronRightIcon fontSize="20" color={mode === "dark" ? "white" : "black"} />
                     </Stack>
                 </div>
-                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }}  >
+                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }} onClick={onClick} >
                     <Stack direction="row" display="flex" justifyContent="space-between" alignItems='center'>
                         <div classname="eo-option-text" style={{ color: mode === "dark" ? "white" : "black" }}>
                             Achievements
@@ -29,7 +29,7 @@ export default function Exploreoption({ onClick, mode }) {
                         {/* <ChevronRightIcon fontSize="20" color={mode === "dark" ? "white" : "black"}  /> */}
                     </Stack>
                 </div>
-                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }}>
+                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }} onClick={onClick}>
                     <Stack direction="row" display="flex" justifyContent="space-between" alignItems='center'>
                         <Link to="/Success Stories">
                             <div classname="eo-option-text" style={{ color: mode === "dark" ? "white" : "black" }}>
@@ -39,7 +39,7 @@ export default function Exploreoption({ onClick, mode }) {
                         {/* <ChevronRightIcon fontSize="20" color={mode === "dark" ? "white" : "black"}  /> */}
                     </Stack>
                 </div>
-                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }} onClick={(e) => setSelectedOption(1)}>
+                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }} onClick={(e) => setSelectedOption(1)} >
                     <Stack direction="row" display="flex" justifyContent="space-between" alignItems='center'>
                         <div classname="eo-option-text" style={{ color: mode === "dark" ? "white" : "black" }}>
                             Events
@@ -47,7 +47,7 @@ export default function Exploreoption({ onClick, mode }) {
                         <ChevronRightIcon fontSize="20" color={mode === "dark" ? "white" : "black"} />
                     </Stack>
                 </div>
-                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }}>
+                <div className='eo-option' style={{ borderBottom: mode === "dark" ? "1px solid white" : "1px solid black" }} onClick={onClick}>
                     <Stack direction="row" display="flex" justifyContent="space-between" alignItems='center'>
                         <div classname="eo-option-text" style={{ color: mode === "dark" ? "white" : "black" }}>
                             Reports

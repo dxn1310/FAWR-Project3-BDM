@@ -35,6 +35,21 @@ export default function Legal({ mode }) {
         }
     ]
 
+    const projectData = [
+        {
+            title: "Rera Property",
+            content: "Helping Real Estate Regulatory Authority, maintain for transparency in the real estate industry.",
+        },
+        {
+            title: "Homecap",
+            content: "To streamline the demands assisting with any other intellectual property-related difficulties as well as the trademark registration done completely. ",
+        },
+        {
+            title: "Houseloan",
+            content: "Adhering to all local legal requirements, avoiding needless risks, and assisting them in effectively achieving their stated financial goals.",
+        },
+    ]
+
     const gridData = [
         {
             name: "Contracts",
@@ -98,7 +113,7 @@ export default function Legal({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

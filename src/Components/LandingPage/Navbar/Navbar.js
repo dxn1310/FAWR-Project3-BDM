@@ -82,9 +82,9 @@ export default function Navbar({ mode, handleMode }) {
                 <Link to="/">
                     <div className='navbar-option'>
                         <Stack direction="row" spacing={5} alignItems="center" display="flex">
-                            <Avatar src='https://bit.ly/broken-link' />
+                            {/* <Avatar src='https://bit.ly/broken-link' /> */}
                             <div className='navbar-option-text'>
-                                Logo
+                                <b>BDM</b>
                             </div>
                         </Stack>
                     </div>
@@ -185,7 +185,7 @@ export default function Navbar({ mode, handleMode }) {
                             <PopoverArrow />
                             <PopoverCloseButton />
                             <PopoverBody>
-                                <div style={{ color: "black" }}>nniec</div>
+                                <div style={{ color: "black" }}>English</div>
                             </PopoverBody>
                         </PopoverContent>
                     </Popover>
@@ -213,10 +213,10 @@ export default function Navbar({ mode, handleMode }) {
                         <MenuList backgroundColor={mode === "dark" ? "#211F22" : "white"} border={mode === "dark" ? "none" : "1px solid black"} width="100%">
                             <MenuItem backgroundColor={mode === "dark" ? "#211F22" : "white"}>
                                 <Stack direction="row" spacing={5} alignItems="center" display="flex">
-                                    <Avatar src='https://bit.ly/broken-link' />
+                                    {/* <Avatar src='https://bit.ly/broken-link' /> */}
                                     <Link to="/">
                                         <div className='navbar-option-text'>
-                                            Logo
+                                            <b>BDM</b>
                                         </div>
                                     </Link>
                                 </Stack></MenuItem>
@@ -299,10 +299,12 @@ export default function Navbar({ mode, handleMode }) {
 
                 <div className='navbar-middle-hidden'>
                     <Stack direction="row" spacing={2} alignItems="center" display="flex">
-                        <Avatar src='https://bit.ly/broken-link' />
-                        <div className='navbar-option-text'>
-                            Logo
-                        </div>
+                        {/* <Avatar src='https://bit.ly/broken-link' /> */}
+                        <Link to="/">
+                            <div className='navbar-option-text'>
+                                <b>BDM</b>
+                            </div>
+                        </Link>
                     </Stack>
                 </div>
 
@@ -324,10 +326,29 @@ export default function Navbar({ mode, handleMode }) {
 
                     {/* <div className='navbar-option1'> */}
                     <Stack direction="row" alignItems="center" display="flex" >
-                        <div className='navbar-option-text'>
+                        {/* <div className='navbar-option-text'>
                             EN
-                        </div>
-                        <ChevronDownIcon fontSize="1.5rem" height="100%" />
+                        </div> */}
+
+                        <Popover placement='bottom-end'>
+                            <PopoverTrigger>
+                                <Stack direction="row" alignItems="center" display="flex" >
+                                    <div className='navbar-option-text'>
+                                        EN
+                                    </div>
+                                    <ChevronDownIcon fontSize="1.5rem" height="100%" />
+                                </Stack>
+                            </PopoverTrigger>
+                            <PopoverContent>
+                                <PopoverHeader fontWeight='semibold'>Popover placement</PopoverHeader>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverBody>
+                                    <div style={{ color: "black" }}>English</div>
+                                </PopoverBody>
+                            </PopoverContent>
+                        </Popover>
+                        {/* <ChevronDownIcon fontSize="1.5rem" height="100%" /> */}
                     </Stack>
                     {/* </div> */}
                 </div>

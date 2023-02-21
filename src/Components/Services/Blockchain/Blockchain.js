@@ -33,6 +33,22 @@ import Value from '../../Templates/Value/Value'
 
 export default function Research({ mode }) {
 
+
+    const projectData = [
+        {
+            title: "Ledgy",
+            content: "a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.",
+        },
+        {
+            title: "Etheum",
+            content: "Pieces of data are stored in data structures known as blocks, and each node of the network has an exact impact",
+        },
+        {
+            title: "Cosmos",
+            content: "Lessentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Access Decentralised ecosystem",
@@ -138,7 +154,7 @@ export default function Research({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project mode={mode} projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

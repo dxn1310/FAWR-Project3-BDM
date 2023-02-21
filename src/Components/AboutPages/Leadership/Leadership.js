@@ -19,58 +19,16 @@ export default function Leadership({ mode }) {
 
     const leaderData = [
         {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
+            title: "Mr. bharanitharan Rajkumar",
+            role: "Chief Executive Officer/Founder",
         },
         {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
+            title: "Ms.Prabhavati",
+            role: "Chief People Officer",
         },
         {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
-        },
-        {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
-        },
-        {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
-        },
-        {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
-        },
-        {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
-        },
-        {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
-        },
-        {
-            title: "Person Name",
-            role: "Designation/ Role",
-            location: "Location"
-
+            title: "Ms. Prasanna ",
+            role: "Chief Financial Officer",
         },
     ]
 

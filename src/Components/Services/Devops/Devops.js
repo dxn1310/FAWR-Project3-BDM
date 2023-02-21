@@ -32,6 +32,22 @@ import Value from '../../Templates/Value/Value'
 
 export default function Research({ mode }) {
 
+
+    const projectData = [
+        {
+            title: "Gradle",
+            content: "One of the best ways to manage infrastructure is by using code. helps to simplify and automate the provisioning and management of infrastructure. Infrastructure as code helps you manage your organization's infrastructure more easily as a DevOps engineer.",
+        },
+        {
+            title: "Docker",
+            content: "Docker is a popular container technology for hosting services and applications that virtualizes operating systems and builds lightweight containers",
+        },
+        {
+            title: "Build Automation Framework",
+            content: "Another important aspect of DevOps is built automation. To streamline the software build process, it is often necessary to automate various tasks, such as code compilation and testing.",
+        },
+    ]
+
     const detailData = [
         {
             title: "DevOps service for faster time to market",
@@ -141,7 +157,7 @@ export default function Research({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project mode={mode} />
+                <Project mode={mode} projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

@@ -25,6 +25,21 @@ export default function Mobile({ mode }) {
         behavior: 'smooth'
     });
 
+    const projectData = [
+        {
+            title: "FunkyMonk",
+            content: "Social networking service, widely used for public communications within organizations. You can design a project around this platform where each student will have to post a question, an idea, or insight about the material covered in class.",
+        },
+        {
+            title: "Brick-by-brick",
+            content: "Social networking service, widely used for private communications within organizations. You can design a project around this platform where each student will have to post a question, an idea, or insight about the material covered in class.",
+        },
+        {
+            title: "Social Bird",
+            content: "Social networking service, widely used for private communications within organizations. You can design a project around this platform where each student will have to post a question, an idea, or insight about the material covered in class.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Make your company omnipresent",
@@ -102,7 +117,7 @@ export default function Mobile({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

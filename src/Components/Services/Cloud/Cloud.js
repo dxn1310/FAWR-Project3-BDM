@@ -31,6 +31,22 @@ export default function Cloud({ mode }) {
         behavior: 'smooth'
     });
 
+
+    const projectData = [
+        {
+            title: "Online blood bank system",
+            content: "Using cloud computing,created a central repository for numerous blood deposits, including depositor information. The blood details would include blood type, storage area, and storage date to help maintain and monitor the blood depositors.",
+        },
+        {
+            title: "Data redundancy removal",
+            content: "This project is focused on accurately removing unnecessary and redundant data in a short amount of time. It accomplishes this by classifying the test data as redundant or false positive.",
+        },
+        {
+            title: "data leaks",
+            content: "This cloud-enabled data leak detection system operates over the Internet and does not require any particular system configuration. The system aims to enhance security and provide measures against SQL injection hacking.",
+        },
+    ]
+
     const detailData = [
         {
             title: "A fast path to improved ROI",
@@ -100,7 +116,7 @@ export default function Cloud({ mode }) {
                 <u> Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

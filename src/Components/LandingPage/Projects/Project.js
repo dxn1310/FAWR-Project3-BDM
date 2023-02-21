@@ -8,7 +8,7 @@ import P2 from "./ProjectImages/P2.png"
 
 import { Card, CardHeader, CardBody, CardFooter, Image, Button, Heading, Text, Stack, ButtonGroup, Divider } from '@chakra-ui/react'
 
-export default function Project() {
+export default function Project({ projectData }) {
     return (
         <div className='project-outer'>
             <div className='project-grid'>
@@ -17,10 +17,10 @@ export default function Project() {
                         <img className='project-img' src={P1} />
                     </div>
                     <div className='project-grid-title'>
-                        Company Name
+                        {projectData[0].title}
                     </div>
                     <div className='project-grid-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo.
+                        {projectData[0].content}
                     </div>
 
                     <div className='project-grid-bottom'>
@@ -37,12 +37,11 @@ export default function Project() {
                         <img className='project-img' src={P2} />
                     </div>
                     <div className='project-grid-title'>
-                        Company Name
+                        {projectData[1].title}
                     </div>
                     <div className='project-grid-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo.
+                        {projectData[1].content}
                     </div>
-
                     <div className='project-grid-bottom'>
                         <div className='project-grid-bottom-text'>
                             UI/UX Design | Web Development | API Development
@@ -56,10 +55,10 @@ export default function Project() {
                         <img className='project-img' src={P1} />
                     </div>
                     <div className='project-grid-title'>
-                        Company Name
+                        {projectData[2].title}
                     </div>
                     <div className='project-grid-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi a luctus bibendum commodo.
+                        {projectData[2].content}
                     </div>
 
                     <div className='project-grid-bottom'>

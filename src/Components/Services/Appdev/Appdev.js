@@ -37,6 +37,22 @@ export default function Appdev({ mode }) {
         behavior: 'smooth'
     });
 
+
+    const projectData = [
+        {
+            title: "Fitness App",
+            content: "The right app that acts as a virtual personal trainer or training partner to keep you motivated and accountable.",
+        },
+        {
+            title: "Real Time",
+            content: "every single user is notified to capture and share a photo during the same 2-minute period every day. While everyone recieves the push notification at the same time, the time of day that notification arrives varies wildly.",
+        },
+        {
+            title: "Infothon",
+            content: "Device Info is a simple and powerful Android application which gives you complete information about your Mobile device with advanced user interfaces.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Build your Dream App",
@@ -127,7 +143,7 @@ export default function Appdev({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>

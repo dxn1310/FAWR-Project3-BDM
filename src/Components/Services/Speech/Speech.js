@@ -28,6 +28,21 @@ export default function Speech({ mode }) {
         behavior: 'smooth'
     });
 
+    const projectData = [
+        {
+            title: "Maya Fm",
+            content: "A radio integrated platform helping users Utilize artificial intelligence (AI) to extract conversational intent. ",
+        },
+        {
+            title: "Robomania",
+            content: "Sentiment analysis involves classifying and interpreting words and phrases used during a conversation according to the customer's sentiment (positive, negative, and neutral).",
+        },
+        {
+            title: "Media School",
+            content: "Obtain a complete picture of each encounter. Discover critical information by replaying and listening to conversations.",
+        },
+    ]
+
     const detailData = [
         {
             title: "Speech & Text Analytics Services",
@@ -107,7 +122,7 @@ export default function Speech({ mode }) {
                 <u>Our Recent Projects</u>
             </div>
             <div className='research-component'>
-                <Project />
+                <Project projectData={projectData} />
             </div>
 
             <div className='reserach-title' style={{ color: mode === "dark" ? "white" : "black" }}>
