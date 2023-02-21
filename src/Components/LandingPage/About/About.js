@@ -8,6 +8,8 @@ import About_img4 from "./AboutImages/About_img4.png"
 
 import { Button, Stack } from '@chakra-ui/react'
 
+import { NavLink as Link } from 'react-router-dom'
+
 export default function About({ mode }) {
     return (
         <div className='about-outer'>
@@ -33,13 +35,16 @@ export default function About({ mode }) {
                     <div><img src={About_img4} /></div>
                     <div className='about-text'>Customer First</div>
                 </Stack>
-
-                <Button
-                    backgroundColor="#BC312E"
-                    marginTop="5%"
-                    color="white">
-                    Contact Us
-                </Button>
+                <Link to="/About Us">
+                    <div style={{ width: "100%", marginTop: "50%" }}>
+                        <Button
+                            backgroundColor="#BC312E"
+                            marginTop="5%"
+                            color="white">
+                            Contact Us
+                        </Button>
+                    </div>
+                </Link>
             </div>
             <div className='about-right'>
                 <img src={mode === "dark" ? About_img3 : About_img1} />

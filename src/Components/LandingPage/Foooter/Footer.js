@@ -74,7 +74,7 @@ export default function Footer() {
                             <Stack direction='row' spacing={2} alignItems="center" display="flex">
                                 <div style={{ width: "1rem" }}><img style={{ width: "1rem" }} src={f8} /></div>
                                 <div className='footer-content-text'>
-                                    company@company.in
+                                    bigbrosdigitalmedia.com
                                 </div>
                             </Stack>
 

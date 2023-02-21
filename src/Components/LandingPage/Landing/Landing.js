@@ -107,13 +107,13 @@ export default function Landing({ mode }) {
                 <Testimonial mode={mode} />
             </div>
 
-            <div className='landing-title' style={{ color: mode === "dark" ? "white" : "black" }}>
+            {/* <div className='landing-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                 <u>Pricing</u>
             </div>
 
             <div className='landing-element' style={{ width: "100%", display: "flex", justifyContent: "center" }}>
                 <Pricing mode={mode} />
-            </div>
+            </div> */}
 
 
 

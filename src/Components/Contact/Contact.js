@@ -131,7 +131,7 @@ export default function Contact({ mode }) {
                         </div>
                     </div>
 
-                    <div className='contact-grid-element'>
+                    {/* <div className='contact-grid-element'>
                         <div className='contact-grid-element-inner' style={{ backgroundColor: mode === "dark" ? "#29262B" : "#EFEFEF" }}>
                             <div className='contatct-grid-title' style={{ color: mode === "dark" ? "white" : "black" }}>
                                 Alumni Relations
@@ -151,7 +151,7 @@ export default function Contact({ mode }) {
                             </Link>
 
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='contact-grid-element'>
                         <div className='contact-grid-element-inner' style={{ backgroundColor: mode === "dark" ? "#29262B" : "#EFEFEF" }}>
