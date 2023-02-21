@@ -14,6 +14,14 @@ import { NavLink as Link } from 'react-router-dom'
 import { Input, Button } from '@chakra-ui/react'
 
 export default function Login() {
+
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
+    
     return (
         <div className='login-outer'>
             <div className='login-bgimg'>

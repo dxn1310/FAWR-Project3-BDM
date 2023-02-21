@@ -15,6 +15,14 @@ import { NavLink as Link } from 'react-router-dom'
 import { Input, Button } from '@chakra-ui/react'
 
 export default function Register() {
+
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
+
     return (
         <div className='register-outer'>
             <div className='register-bgimg'>
