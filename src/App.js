@@ -81,8 +81,8 @@ import Alliance from './Components/AboutPages/Alliance/Alliance.js'
 import SocialI from './Components/AboutPages/Social/SocialI.js'
 import Believe from './Components/AboutPages/Believe/Believe.js'
 import Whatwedo from './Components/AboutPages/Whatwedo/Whatwedo.js'
-import Fresher from './Components/LandingPage/Navbar/NavbarOptions/Aboutoption/AboutextraPages/Fresher/Fresher.js'
-import Professional from './Components/LandingPage/Navbar/NavbarOptions/Aboutoption/AboutextraPages/Professional/Professional.js'
+// import Fresher from './Components/LandingPage/Navbar/NavbarOptions/Aboutoption/AboutextraPages/Fresher/Fresher.js'
+// import Professional from './Components/LandingPage/Navbar/NavbarOptions/Aboutoption/AboutextraPages/Professional/Professional.js'
 import Heathcare from './Components/Services/Industries/Healthcare/Heathcare.js'
 import Media from './Components/Services/Industries/Media/Media.js'
 import Airline from './Components/Services/Industries/Airline/Airline.js'
@@ -91,6 +91,8 @@ import Success from './Components/AboutPages/Success/Success.js'
 import Mediacenter from './Components/AboutPages/MediaCenter/Mediacenter.js'
 import Alumni from './Components/AboutPages/Alumni/Alumni.js'
 import Job from './Components/Career/Job/Job.js'
+import Freshers from './Components/Career/Freshers/Freshers.js'
+import Professional from "./Components/Career/Professional/Professional.js"
 
 
 
@@ -143,7 +145,10 @@ export default function App() {
           <Route path="/Media Center" element={<Mediacenter mode={mode} />} />
           <Route path="/Alumni Relations" element={<Alumni mode={mode} />} />
 
-          <Route path="/Opportunities for Freshers" element={<Fresher mode={mode} />} />
+          {/* <Route path="/Opportunities for Freshers" element={<Fresher mode={mode} />} />
+          <Route path="/Experienced Professional" element={<Professional mode={mode} />} /> */}
+
+          <Route path="/Opportunities for Freshers" element={<Freshers mode={mode} />} />
           <Route path="/Experienced Professional" element={<Professional mode={mode} />} />
 
 

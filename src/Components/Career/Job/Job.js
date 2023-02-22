@@ -48,6 +48,7 @@ export default function Job({ mode }) {
 
     const [isLargerThan1400] = useMediaQuery('(min-width: 1400px)')
     const [isLargerThan500] = useMediaQuery('(min-width: 500px)')
+    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
 
     const jobData = [
         {
@@ -383,7 +384,7 @@ export default function Job({ mode }) {
             <div className='job-grid2'>
                 {
                     jobData.map((element, index) => {
-                        return <div className='job-element2' style={{ flexDirection: index % 2 === 0 ? "row" : "row-reverse" }}>
+                        return <div className='job-element2' style={{ flexDirection: index % 2 === 0 ? "row" : "row-reverse", display: isLargerThan800 ? "flex" : "none" }}>
                             <div className='job-element2-left'>
                                 <div style={{ width: "100%" }}>
                                     <img src={element.img} style={{ width: "100%" }} />
@@ -392,6 +393,34 @@ export default function Job({ mode }) {
                             <div className='job-element2-right'>
                                 <div className='job-element2-title'>
                                     {element.title}
+                                </div>
+
+                                <div className='job-element2-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
+                                    {element.content}
+                                </div>
+
+                                <Link to={element.link}>
+                                    <div style={{ width: "100%", display: "flex", justifyContent: "left", marginTop: "10%" }}>
+                                        <Button variant="outline" colorScheme="red">Know More</Button>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                    })
+                }
+
+                {
+                    jobData.map((element, index) => {
+                        return <div className='job-element2' style={{ flexDirection: "column", display: isLargerThan800 ? "none" : "flex" }}>
+                            <div className='job-element2-left'>
+                                <div className='job-element2-title'>
+                                    {element.title}
+                                </div>
+
+                            </div>
+                            <div className='job-element2-right'>
+                                <div style={{ width: "100%" }}>
+                                    <img src={element.img} style={{ width: "100%" }} />
                                 </div>
 
                                 <div className='job-element2-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7E7E7E" }}>
@@ -420,13 +449,13 @@ export default function Job({ mode }) {
                 </div>
                 <div className='job-opp-right'>
                     <div style={{ width: "40%", cursor: "pointer" }}>
-                        <Link to="">
+                        <Link to="/Opportunities for Freshers">
                             <img src={J10} />
                         </Link>
                     </div>
 
                     <div style={{ width: "40%", cursor: "pointer" }}>
-                        <Link to="">
+                        <Link to="/Experienced Professional">
                             <img src={J11} />
                         </Link>
                     </div>

@@ -32,8 +32,8 @@ export default function Companies({ mode }) {
 
     const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
     return (
-        <div className='companies-outer' style={{ color: mode === "dark" ? "#C6C6C6" : "#7A7A7A" }}>
-
+        <div className='companies-outer' style={{ color: mode === "dark" ? "#C6C6C6" : "#7A7A7A", }}>
+            {/* backgroundColor: mode === "dark" ? "transparent" : "#E0E0E0", marginBottom: "10%"  */}
             <div className='companies-names'>
                 {
                     Data.map((name, index) => {
