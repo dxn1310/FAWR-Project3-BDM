@@ -134,13 +134,14 @@ export default function Navbar({ mode, handleMode }) {
 
 
 
-                <div className='navbar-option' onClick={(e) => { onToggle(); setSelectedOption(3) }}>
-                    <Stack direction="row" alignItems="center" display="flex" >
-                        <div className='navbar-option-text'>
-                            Career
-                        </div>
-                        <ChevronDownIcon fontSize="1.5rem" height="100%" />
-                    </Stack>
+                <div className='navbar-option'>
+                    <Link to="/Jobs">
+                        <Stack direction="row" alignItems="center" display="flex" >
+                            <div className='navbar-option-text'>
+                                Career
+                            </div>
+                        </Stack>
+                    </Link>
                 </div>
 
 
@@ -267,7 +268,7 @@ export default function Navbar({ mode, handleMode }) {
 
                             <MenuItem backgroundColor={mode === "dark" ? "#211F22" : "white"} >
                                 <Stack direction="row" alignItems="center" display="flex" >
-                                    <Link to="/Career Options">
+                                    <Link to="/Jobs">
                                         <div className='navbar-option-text'>
                                             Career
                                         </div>

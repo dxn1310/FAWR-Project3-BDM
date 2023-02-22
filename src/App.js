@@ -90,6 +90,7 @@ import Aboutus from './Components/AboutPages/Aboutus/Aboutus.js'
 import Success from './Components/AboutPages/Success/Success.js'
 import Mediacenter from './Components/AboutPages/MediaCenter/Mediacenter.js'
 import Alumni from './Components/AboutPages/Alumni/Alumni.js'
+import Job from './Components/Career/Job/Job.js'
 
 
 
@@ -193,6 +194,8 @@ export default function App() {
           <Route path="/Student / Intern Program" element={<Student mode={mode} />} />
           <Route path="/Diversity & Inclusion" element={<Diversity mode={mode} />} />
           <Route path="/Learning & Development" element={<Learning mode={mode} />} />
+          <Route path="/Jobs" element={<Job mode={mode} />} />
+
 
 
           <Route path="/Login" element={<Login mode={mode} />} />
