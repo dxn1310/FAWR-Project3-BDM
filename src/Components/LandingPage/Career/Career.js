@@ -5,6 +5,8 @@ import "./Career.css"
 import Career_img1 from "./CareerImages/Career_img1.png"
 import Career_img2 from "./CareerImages/Career_img2.png"
 
+import { NavLink as Link } from 'react-router-dom'
+
 export default function Career({ mode }) {
     return (
         <div className='career-outer'>
@@ -50,9 +52,11 @@ export default function Career({ mode }) {
                         <div className='career-job-text' style={{ color: "#BC312E", textAlign: "center" }}>Earn ₹10000 - ₹20000 per month</div>
                     </Stack>
                 </div>
-                <div style={{ width: "60%", justifyContent: "right", display: "flex", marginTop: "2%" }} className='career-job-text'>
-                    View All
-                </div>
+                <Link to="/Jobs">
+                    <div style={{ width: "60%", justifyContent: "right", display: "flex", marginTop: "2%" }} className='career-job-text'>
+                        View All
+                    </div>
+                </Link>
 
             </div>
             <div className='career-right'>
