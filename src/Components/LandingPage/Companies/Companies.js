@@ -19,8 +19,9 @@ import { useMediaQuery } from '@chakra-ui/react'
 export default function Companies({ mode }) {
     const [selected, setSelected] = useState(0)
 
-    const Data = ["BB Celebration", "BB Creative Studio", "BB Wedding", "BB Creative Corner", "BB Corporate Connect", "BB Salon"]
-    const imgs = [C3, C4, C5, C6, C7, C8]
+    const Data = ["BB Celebration", "BB Creative Studio", "Wed my love", "BB Influencer", "BB Corporate Connect", "BB Salon"]
+    const imgs = [C8, C7, C6, C5, C4, C3]
+    const titles = ["Celebration Schemes", "BB Creative Studio", "Wed my love", "BB Influencer", "BB Corporate Connect", "BB Salon"]
     const content = ["BB Celebration schemes helps you to get the best of deals and planned sets for any of your occasion be it a birthday party, anniversary, graduation party or a throw for the corporates.",
         "BB creative studio provides one solution for all the fields of expertise giving a wide range of options to choose from. They enhance your experience everyday by offering a wide range of coupons, deals and cashbacks on the leading online brands and websites. ",
         "India’s most trusted connecting  network. They  guide you in your journey to find inner peace and fulfillment. They find the best of people to get together.",
@@ -47,7 +48,7 @@ export default function Companies({ mode }) {
             <div className='companies-content'>
                 <div className='companies-left'>
                     <div className='companies-title'>
-                        {Data[selected]}
+                        {titles[selected]}
                     </div>
                     <div className='companies-left-content' style={{ color: mode === "dark" ? "#C6C6C6" : "#7A7A7A" }}>
                         {content[selected]}
